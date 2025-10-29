@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="App">
         <h1>Em Construção</h1>
-        <p>Em breve o novo site da nossa empresa para vocês!</p>
+        <p>Em breve o novo site do nosso estúdio de jogos brazuca!</p>
 
       </div>
     </>
