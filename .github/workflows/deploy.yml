@@ -1,12 +1,12 @@
-name: Deploy React Vite Site on Github Pages.
+name: Deploy React Vite Site on Github Pages
 
 on:
   push:
     branches:
-      - main #dispara quando houver push na branch main
+      - main # dispara quando houver push na branch main
 
 permissions:
-  contents: write #necessário para poder comitar na branch gh-pages
+  contents: write # necessário para poder comitar na branch gh-pages
 
 jobs:
   build-and-deploy:
@@ -24,13 +24,19 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        # se tiver package-lock.json certinho, pode usar: npm ci
 
-      - name: run build
+      - name: Run build
         run: npm run build
-      
+
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # configura identidade do git para o commit na gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # faz o deploy usando o token do Actions
           npx gh-pages -d dist \
-            -r https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+            -r https://x-access-token:${GITHUB_TOKEN}@github.com/TechStrikeBrasil/techstrike-website.git
