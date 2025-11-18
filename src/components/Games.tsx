@@ -10,14 +10,14 @@ const Games = () => {
     {
       title: "HexPG",
       description: t.hexPGDesc,
-      image: "/src/assets/4cedc009-8afc-4bb3-8e49-f0a4385bc4f5.png",
+      image: "/images/games/hexpg.png",
       platforms: ["desktop"],
       link: "#",
     },
     {
       title: "Verdant Valley",
       description: t.verdantValleyDesc,
-      image: "/src/assets/ba8b79e5-75d5-4586-b335-b662be4d3dbf.png",
+      image: "/images/games/verdant-valley.png",
       platforms: ["mobile"],
       link: "#",
     },

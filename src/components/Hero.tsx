@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="text-center max-w-3xl mx-auto">
           <div className="mb-6">
             <img 
-              src="/src/assets/bc6c90b7-d2b3-4c87-a2c6-59ceb64ddd40.png" 
+              src="/images/techstrike-logo.png"
               alt="TechStrike Game Studio Logo" 
               className="h-24 mx-auto mb-4"
             />
