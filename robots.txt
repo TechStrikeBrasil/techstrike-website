@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gamestudio.techstrike.com.br/sitemap.xml
