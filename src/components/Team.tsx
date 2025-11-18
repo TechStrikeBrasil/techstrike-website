@@ -10,7 +10,7 @@ const Team = () => {
     {
       name: "Michel (Mike) Alves",
       role: t.founderRole,
-      image: "/src/assets/3f045aeb-1df5-4eda-8752-e5132e0d904f.jpg",
+      image: "/images/mike-photo.jpg",
       bio: t.founderBio,
       socials: {
         github: "https://github.com/mikxingu",
