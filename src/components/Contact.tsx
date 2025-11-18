@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useToast } from "../hooks/use-toast";
 import { useLanguage } from "../contexts/LanguageContext";
 import { translations } from "../translations/translations";
-
+import emailjs from "@emailjs/browser"
 const Contact = () => {
   const { language } = useLanguage();
   const t = translations[language];
@@ -23,14 +23,23 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real implementation, you would send the form data to a server
-    console.log("Form submitted:", formData);
+    emailjs.send(
+      "service_55n2dgr",
+      "template_kwqzosb",
+      {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+
+      },
+      "Mt4NmZWZd_8xMIuei"
+    )    
     
     toast({
       title: t.messageSent,
       description: t.messageSuccess,
     });
-    
+
     // Reset form
     setFormData({ name: "", email: "", message: "" });
   };
