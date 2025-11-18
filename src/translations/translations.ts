@@ -13,7 +13,7 @@ export const translations = {
 
     // About
     aboutTitle: "About Our Studio",
-    aboutDescription: "TechStrike Game Studio is an indie game development studio based in São Paulo, Brazil. Founded with a passion for creating engaging gaming experiences across desktop and mobile platforms.",
+    aboutDescription: "TechStrike Game Studio is a brazilian indie game development studio based in São Paulo, Brazil. Founded with a passion for creating engaging gaming experiences across desktop and mobile platforms.",
     creativeDesign: "Creative Design",
     creativeDesignDesc: "Our games feature unique art styles and innovative gameplay mechanics that create memorable experiences.",
     technicalExcellence: "Technical Excellence",
@@ -41,7 +41,7 @@ export const translations = {
     location: "Location",
     locationValue: "São Paulo, Brazil",
     email: "Email",
-    emailValue: "contact@techstrike.studio",
+    emailValue: "tstrikebr@gmail.com",
     followUs: "Follow Us",
     sendMessage: "Send Us a Message",
     name: "Name",
@@ -69,7 +69,7 @@ export const translations = {
 
     // About
     aboutTitle: "Sobre Nosso Estúdio",
-    aboutDescription: "TechStrike Game Studio é um estúdio indie de desenvolvimento de jogos sediado em São Paulo, Brasil. Fundado com paixão por criar experiências de jogo envolventes para plataformas desktop e mobile.",
+    aboutDescription: "TechStrike Game Studio é um estúdio brasileiro indie de desenvolvimento de jogos sediado em São Paulo, Brasil. Fundado com paixão por criar experiências de jogo envolventes para plataformas desktop e mobile.",
     creativeDesign: "Design Criativo",
     creativeDesignDesc: "Nossos jogos apresentam estilos artísticos únicos e mecânicas de jogabilidade inovadoras que criam experiências memoráveis.",
     technicalExcellence: "Excelência Técnica",
@@ -97,7 +97,7 @@ export const translations = {
     location: "Localização",
     locationValue: "São Paulo, Brasil",
     email: "E-mail",
-    emailValue: "contact@techstrike.studio",
+    emailValue: "tstrikebr@gmail.com",
     followUs: "Siga-nos",
     sendMessage: "Envie uma Mensagem",
     name: "Nome",

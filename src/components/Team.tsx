@@ -1,4 +1,4 @@
-import { Github,  Linkedin } from "lucide-react"; // Globe,
+import { Github,  Linkedin, Youtube } from "lucide-react"; // Globe,
 import { useLanguage } from "../contexts/LanguageContext";
 import { translations } from "../translations/translations";
 
@@ -15,6 +15,7 @@ const Team = () => {
       socials: {
         github: "https://github.com/mikxingu",
         linkedin: "https://www.linkedin.com/in/michel-alves-almeida-leite-84976315a/",
+        youtube: "https://www.youtube.com/@mikeriderbrasil"
         //website: "#", --TODO: Add personal website if available
       },
     },
@@ -65,6 +66,15 @@ const Team = () => {
                     aria-label={`${member.name}'s LinkedIn`}
                   >
                     <Linkedin size={18} />
+                  </a>
+                )}
+                {member.socials.youtube && (
+                  <a 
+                    href={member.socials.youtube}
+                    className="text-foreground/70 hover:text-primary transition-colors"
+                    aria-label={`${member.name}'s Youtube`}
+                  >
+                    <Youtube size={18} />
                   </a>
                 )}
                 {/* {member.socials.website && (
