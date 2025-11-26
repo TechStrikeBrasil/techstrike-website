@@ -8,20 +8,38 @@ const Games = () => {
 
   const games = [
     {
+      title: "Meu Restaurante Brazuca",
+      description: t.restaurantBrazucaDesc,
+      longDescription: t.restaurantBrazucaLongDesc,
+      image: "/images/games/meu-restaurante-brazuca/meu-restaurante-brazuca.png",
+      platforms: ["desktop"],
+      screenshots: [
+        "/images/games/meu-restaurante-brazuca/1.jpg",
+        "/images/games/meu-restaurante-brazuca/2.jpg",
+        "/images/games/meu-restaurante-brazuca/3.jpg",
+        "/images/games/meu-restaurante-brazuca/4.jpg",
+      ],
+      trailerUrl: "https://www.youtube.com/embed/xkNRY-ZFbhY",
+      stores: [
+        { name: "Steam", url: "https://store.steampowered.com/app/4084600/Meu_Restaurante_Brazuca" },
+        { name: "Itch.io", url: "https://tstrikebrasil.itch.io/meu-restaurante-brazuca" },
+      ],
+      isNew: true,
+    },
+    {
       title: "HexPG",
       description: t.hexPGDesc,
       longDescription: t.hexPGLongDesc,
-      image: "/lovable-uploads/4cedc009-8afc-4bb3-8e49-f0a4385bc4f5.png",
+      image: "/images/games/hex-pg/hexpg.png",
       platforms: ["desktop"],
       screenshots: [
-        "/lovable-uploads/4cedc009-8afc-4bb3-8e49-f0a4385bc4f5.png",
-        "/lovable-uploads/4cedc009-8afc-4bb3-8e49-f0a4385bc4f5.png",
-        "/lovable-uploads/4cedc009-8afc-4bb3-8e49-f0a4385bc4f5.png",
+        "/images/games/hex-pg/1.jpg",
+        "/images/games/hex-pg/2.jpg",
+        "/images/games/hex-pg/3.jpg",
       ],
-      trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      trailerUrl: "https://www.youtube.com/embed/ymKgngy1TN4",
       stores: [
-        { name: "Steam", url: "#" },
-        { name: "Itch.io", url: "#" },
+        { name: "Itch.io", url: "https://tstrikebrasil.itch.io/hexmap-revisited" },
       ],
       isNew: false,
     },
@@ -29,38 +47,21 @@ const Games = () => {
       title: "Verdant Valley",
       description: t.verdantValleyDesc,
       longDescription: t.verdantValleyLongDesc,
-      image: "/lovable-uploads/ba8b79e5-75d5-4586-b335-b662be4d3dbf.png",
+      image: "/images/games/verdant-valley/verdant-valley.jpg",
       platforms: ["mobile"],
       screenshots: [
-        "/lovable-uploads/ba8b79e5-75d5-4586-b335-b662be4d3dbf.png",
-        "/lovable-uploads/ba8b79e5-75d5-4586-b335-b662be4d3dbf.png",
-        "/lovable-uploads/ba8b79e5-75d5-4586-b335-b662be4d3dbf.png",
+        "/images/games/verdant-valley/1.jpg",
+        "/images/games/verdant-valley/2.jpg",
+        "/images/games/verdant-valley/3.jpg",
       ],
-      trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      trailerUrl: "https://www.youtube.com/embed/tqNIEFG5LEg",
       stores: [
-        { name: "Google Play", url: "#" },
-        { name: "App Store", url: "#" },
+        { name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.techstrikebrasil.verdantvalley" },
+        //{ name: "App Store", url: "#" },
       ],
       isNew: false,
     },
-    {
-      title: "Meu Restaurante Brazuca",
-      description: t.restaurantBrazucaDesc,
-      longDescription: t.restaurantBrazucaLongDesc,
-      image: "/lovable-uploads/bc6c90b7-d2b3-4c87-a2c6-59ceb64ddd40.png",
-      platforms: ["mobile", "desktop"],
-      screenshots: [
-        "/lovable-uploads/bc6c90b7-d2b3-4c87-a2c6-59ceb64ddd40.png",
-        "/lovable-uploads/bc6c90b7-d2b3-4c87-a2c6-59ceb64ddd40.png",
-        "/lovable-uploads/bc6c90b7-d2b3-4c87-a2c6-59ceb64ddd40.png",
-      ],
-      trailerUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      stores: [
-        { name: "Steam", url: "#" },
-        { name: "Itch.io", url: "#" },
-      ],
-      isNew: true,
-    },
+    
   ];
   return (
     <section id="games" className="section-padding bg-card">
