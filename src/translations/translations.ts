@@ -31,6 +31,11 @@ export const translations = {
     gamesTitle: "Our Games",
     gamesSubtitle: "Explore our collection of desktop and mobile games",
     hexPGDesc: "A desktop RPG platform for PC featuring tactical turn-based combat, character progression, and an immersive fantasy world.",
+    hexPGLongDesc: "HexPG is an ambitious desktop RPG platform designed for PC gamers who crave strategic depth and immersive storytelling. The game features a sophisticated tactical turn-based combat system where every decision matters. Players can develop their characters through an extensive progression system, unlocking new abilities, equipment, and skills as they journey through a rich fantasy world filled with memorable characters, challenging quests, and dynamic events.",
+    verdantValleyLongDesc: "Verdant Valley brings the joy of farming to your mobile device with intuitive touch controls and charming visuals. Build your dream farm from the ground up by planting and harvesting a variety of crops, raising adorable animals, and decorating your land with beautiful structures. The game features seasonal events, cooperative gameplay with friends, and regular content updates that keep the experience fresh and engaging.",
+    restaurantBrazucaDesc: "Casual restaurant game inspired by Overcooked. Assemble and deliver orders before time runs out.",
+    restaurantBrazucaLongDesc: "Meu Restaurante Brazuca is a fast-paced casual cooking game that captures the chaotic fun of Overcooked with a distinctly Brazilian flavor. Players must work efficiently to prepare and serve authentic Brazilian dishes while managing time pressure and increasingly complex orders. The game features colorful graphics, upbeat music, and a variety of recipes from different regions of Brazil. Perfect for both solo play and cooperative multiplayer sessions with friends.",
+    newBadge: "New!",
     verdantValleyDesc: "A mobile farming simulation game where players grow crops, raise animals, and build their own thriving farm in a peaceful countryside setting.",
     learnMore: "Learn More",
 
@@ -87,7 +92,12 @@ export const translations = {
     gamesTitle: "Nossos Jogos",
     gamesSubtitle: "Explore nossa coleção de jogos para desktop e mobile",
     hexPGDesc: "Uma plataforma de RPG para PC com combate tático por turnos, progressão de personagens e um mundo de fantasia imersivo.",
+    hexPGLongDesc: "HexPG é uma ambiciosa plataforma de RPG para desktop projetada para jogadores de PC que buscam profundidade estratégica e narrativa imersiva. O jogo apresenta um sofisticado sistema de combate tático por turnos onde cada decisão importa. Os jogadores podem desenvolver seus personagens através de um extenso sistema de progressão, desbloqueando novas habilidades, equipamentos e perícias enquanto exploram um rico mundo de fantasia repleto de personagens memoráveis, missões desafiadoras e eventos dinâmicos.",
     verdantValleyDesc: "Um jogo de simulação de fazenda para mobile onde jogadores cultivam plantações, criam animais e constroem sua própria fazenda próspera em um cenário campestre pacífico.",
+    verdantValleyLongDesc: "Verdant Valley traz a alegria da agricultura para seu dispositivo móvel com controles por toque intuitivos e visuais encantadores. Construa a fazenda dos seus sonhos do zero plantando e colhendo uma variedade de culturas, criando animais adoráveis e decorando sua terra com belas estruturas. O jogo apresenta eventos sazonais, jogabilidade cooperativa com amigos e atualizações regulares de conteúdo que mantêm a experiência sempre fresca e envolvente.",
+    restaurantBrazucaDesc: "Jogo casual de restaurante inspirado em Overcooked. Monte e entregue pedidos antes do tempo acabar.",
+    restaurantBrazucaLongDesc: "Meu Restaurante Brazuca é um jogo de culinária acelerado que captura a diversão caótica de Overcooked com um sabor distintamente brasileiro. Os jogadores devem trabalhar eficientemente para preparar e servir pratos autênticos brasileiros enquanto gerenciam a pressão do tempo e pedidos cada vez mais complexos. O jogo apresenta gráficos coloridos, música animada e uma variedade de receitas de diferentes regiões do Brasil. Perfeito tanto para jogar sozinho quanto em sessões multiplayer cooperativas com amigos.",
+    newBadge: "Novo!",
     learnMore: "Saiba Mais",
 
     // Contact
