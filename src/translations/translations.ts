@@ -20,6 +20,8 @@ export const translations = {
     technicalExcellenceDesc: "We leverage cutting-edge technologies to deliver smooth performance across desktop and mobile platforms.",
     playerFocused: "Player-Focused",
     playerFocusedDesc: "We build games with our community in mind, incorporating feedback to continually improve our creations.",
+    fairMonetization: "Fair Monetization",
+    fairMonetizationDesc: "We believe in providing value to players through fair pricing models and avoiding pay-to-win mechanics. We have the compromise to never implement ads in our games!",
 
     // Team
     teamTitle: "Meet The Team",
@@ -81,6 +83,8 @@ export const translations = {
     technicalExcellenceDesc: "Aproveitamos tecnologias de ponta para oferecer desempenho suave em plataformas desktop e mobile.",
     playerFocused: "Focado no Jogador",
     playerFocusedDesc: "Construímos jogos pensando em nossa comunidade, incorporando feedback para melhorar continuamente nossas criações.",
+    fairMonetization: "Monetização Justa",
+    fairMonetizationDesc: "Acreditamos em fornecer valor aos jogadores por meio de modelos de preços justos e evitando mecânicas pay-to-win. Temos o compromisso de nunca implementar anúncios em nossos jogos!",
 
     // Team
     teamTitle: "Conheça a Equipe",
