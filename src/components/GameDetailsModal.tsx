@@ -27,7 +27,7 @@ const GameDetailsModal = ({
   open,
   onOpenChange,
   title,
-  description,
+  //description,
   longDescription,
   screenshots,
   trailerUrl,
