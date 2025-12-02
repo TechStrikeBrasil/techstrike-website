@@ -21,8 +21,8 @@ const Games = () => {
       ],
       trailerUrl: "https://www.youtube.com/embed/xkNRY-ZFbhY",
       stores: [
-        { name: "Steam", url: "https://store.steampowered.com/app/4084600/Meu_Restaurante_Brazuca" },
-        { name: "Itch.io", url: "https://tstrikebrasil.itch.io/meu-restaurante-brazuca" },
+        { name: "Steam", url: "https://store.steampowered.com/app/4084600/Meu_Restaurante_Brazuca?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
+        { name: "Itch.io", url: "https://tstrikebrasil.itch.io/meu-restaurante-brazuca?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
       ],
       isNew: true,
     },
@@ -39,7 +39,7 @@ const Games = () => {
       ],
       trailerUrl: "https://www.youtube.com/embed/ymKgngy1TN4",
       stores: [
-        { name: "Itch.io", url: "https://tstrikebrasil.itch.io/hexmap-revisited" },
+        { name: "Itch.io", url: "https://tstrikebrasil.itch.io/hexmap-revisited?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
       ],
       isNew: false,
     },
@@ -56,7 +56,7 @@ const Games = () => {
       ],
       trailerUrl: "https://www.youtube.com/embed/tqNIEFG5LEg",
       stores: [
-        { name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.techstrikebrasil.verdantvalley" },
+        { name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.techstrikebrasil.verdantvalley?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
         //{ name: "App Store", url: "#" },
       ],
       isNew: false,
