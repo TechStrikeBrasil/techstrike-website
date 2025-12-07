@@ -4,6 +4,7 @@ export const translations = {
     about: "About",
     team: "Team",
     games: "Games",
+    news: "News",
     contact: "Contact",
 
     // Hero
@@ -41,6 +42,10 @@ export const translations = {
     verdantValleyDesc: "A mobile farming simulation game where players grow crops, raise animals, and build their own thriving farm in a peaceful countryside setting.",
     learnMore: "Learn More",
 
+    // News
+    newsTitle: "News",
+    newsSubtitle: "Stay updated with the latest news and press coverage about TechStrike Game Studio games.",
+
     // Contact
     contactTitle: "Get In Touch",
     contactSubtitle: "Have questions about our games or interested in collaborating? Reach out to us!",
@@ -67,6 +72,7 @@ export const translations = {
     about: "Sobre",
     team: "Equipe",
     games: "Jogos",
+    news: "Notícias",
     contact: "Contato",
 
     // Hero
@@ -103,6 +109,10 @@ export const translations = {
     restaurantBrazucaLongDesc: "Meu Restaurante Brazuca é um jogo de culinária acelerado que captura a diversão caótica de Overcooked com um sabor distintamente brasileiro. Os jogadores devem trabalhar eficientemente para preparar e servir pratos autênticos brasileiros enquanto gerenciam a pressão do tempo e pedidos cada vez mais complexos. O jogo apresenta gráficos coloridos, música animada e uma variedade de receitas de diferentes regiões do Brasil. Perfeito tanto para jogar sozinho quanto em sessões multiplayer cooperativas com amigos.",
     newBadge: "Novo!",
     learnMore: "Saiba Mais",
+
+    // News
+    newsTitle: "Notícias",
+    newsSubtitle: "Fique atualizado com as últimas notícias e cobertura da imprensa sobre os jogos da TechStrike Game Studio.",
 
     // Contact
     contactTitle: "Entre em Contato",

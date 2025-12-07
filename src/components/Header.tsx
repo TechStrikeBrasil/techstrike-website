@@ -59,6 +59,11 @@ const Header = () => {
                 </a>
               </li>
               <li>
+                <a href="#news" className="nav-link">
+                  {t.news}
+                </a>
+              </li>
+              <li>
                 <a href="#contact" className="nav-link">
                   {t.contact}
                 </a>
@@ -107,6 +112,15 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t.games}
+              </a>
+            </li>
+            <li className="py-3 border-b border-border">
+              <a
+                href="#news"
+                className="block nav-link"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t.news}
               </a>
             </li>
             <li className="py-3 border-b border-border">
