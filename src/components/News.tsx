@@ -19,6 +19,30 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
+    id: "3",
+    titleEn: "Meu Restaurante Brazuca recieved a Mobile Version",
+    titlePt: "Meu Restaurante Brazuca recebeu uma Versão Mobile",
+    excerptEn: "We released a mobile version of Meu Restaurante Brazuca on Google Play! Click here and check it out!",
+    excerptPt: "Lançamos uma versão mobile do Meu Restaurante Brazuca na Google Play! Clique aqui e confira!",
+    date: "2026-02-19",
+    source: "TechStrike News",
+    imageUrl: "/images/news/3-mrb-mobile.jpg",
+    externalUrl: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudio.MeuRestauranteBrazuca",
+    isNew: true,
+  },
+  {
+    id: "2",
+    titleEn: "We released a mobile memory game for kids!",
+    titlePt: "Lançamos um jogo mobile de memória para crianças!",
+    excerptEn: "We released a new mobile game for kids. Click here and find more about it!",
+    excerptPt: "Lançamos um novo jogo mobile para crianças. Clique aqui e descubra mais sobre!",
+    date: "2026-01-16",
+    source: "TechStrike News",
+    imageUrl: "/images/news/2-jogo-memoria.jpg",
+    externalUrl: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudios.JogodaMemriaInfantil",
+    isNew: true,
+  },
+  {
     id: "1",
     titleEn: "Meu Restaurante Brazuca Featured on GamesArdor Portal",
     titlePt: "Meu Restaurante Brazuca Destaque no Portal GamesArdor",
@@ -28,7 +52,7 @@ const newsItems: NewsItem[] = [
     source: "GamesArdor Portal",
     imageUrl: "/images/news/1-games-ardor-website.jpg",
     externalUrl: "https://gamesardor.net/top-steam-games-to-look-out-for-in-december-2025?utm_source=techstrike_site&utm_medium=website&utm_campaign=news_card",
-    isNew: true,
+    isNew: false,
   },
 ];
 

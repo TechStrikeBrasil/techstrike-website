@@ -41,6 +41,9 @@ export const translations = {
     newBadge: "New!",
     verdantValleyDesc: "A mobile farming simulation game where players grow crops, raise animals, and build their own thriving farm in a peaceful countryside setting.",
     learnMore: "Learn More",
+    // Memory game
+    memoryGameDesc: "A mobile memory game for kids where players match pairs of cards featuring colorful and fun illustrations.",
+    memoryGameLongDesc: "Our mobile memory game for kids is designed to provide a fun and educational experience for young players. The game features vibrant and engaging illustrations on the cards, making it visually appealing for children. Players can test their memory skills by matching pairs of cards, with various themes and difficulty levels to keep them entertained. The intuitive touch controls make it easy for kids to play, while the colorful graphics and cheerful music create an enjoyable gaming environment.",
 
     // News
     newsTitle: "News",
@@ -109,6 +112,10 @@ export const translations = {
     restaurantBrazucaLongDesc: "Meu Restaurante Brazuca é um jogo de culinária acelerado que captura a diversão caótica de Overcooked com um sabor distintamente brasileiro. Os jogadores devem trabalhar eficientemente para preparar e servir pratos autênticos brasileiros enquanto gerenciam a pressão do tempo e pedidos cada vez mais complexos. O jogo apresenta gráficos coloridos, música animada e uma variedade de receitas de diferentes regiões do Brasil. Perfeito tanto para jogar sozinho quanto em sessões multiplayer cooperativas com amigos.",
     newBadge: "Novo!",
     learnMore: "Saiba Mais",
+
+    // Memory game
+    memoryGameDesc: "Um jogo de memória mobile para crianças onde os jogadores combinam pares de cartas com ilustrações coloridas e divertidas.",
+    memoryGameLongDesc: "Nosso jogo de memória mobile para crianças é projetado para proporcionar uma experiência divertida e educativa para os jovens jogadores. O jogo apresenta ilustrações vibrantes e envolventes nas cartas, tornando-o visualmente atraente para as crianças. Os jogadores podem testar suas habilidades de memória combinando pares de cartas, com vários temas e níveis de dificuldade para mantê-los entretidos. Os controles por toque intuitivos facilitam o jogo para as crianças, enquanto os gráficos coloridos e a música alegre criam um ambiente de jogo agradável.",
 
     // News
     newsTitle: "Notícias",
