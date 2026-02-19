@@ -8,11 +8,30 @@ const Games = () => {
 
   const games = [
     {
+      title: "Jogo da Memória - Infantil",
+      description: t.memoryGameDesc,
+      longDescription: t.memoryGameLongDesc,
+      image: "/images/games/memory-game/memory-game.jpg",
+      platforms: ["mobile"],
+      screenshots: [
+        "/images/games/memory-game/1.jpg",
+        "/images/games/memory-game/2.jpg",
+        "/images/games/memory-game/3.jpg",
+        "/images/games/memory-game/4.jpg",
+      ],
+      trailerUrl: "",
+      stores: [
+        { name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudios.JogodaMemriaInfantil" },
+        //{ name: "App Store", url: "#" },
+      ],
+      isNew: true,
+    },
+    {
       title: "Meu Restaurante Brazuca",
       description: t.restaurantBrazucaDesc,
       longDescription: t.restaurantBrazucaLongDesc,
       image: "/images/games/meu-restaurante-brazuca/meu-restaurante-brazuca.png",
-      platforms: ["desktop"],
+      platforms: ["desktop", "mobile"],
       screenshots: [
         "/images/games/meu-restaurante-brazuca/1.jpg",
         "/images/games/meu-restaurante-brazuca/2.jpg",
@@ -22,9 +41,10 @@ const Games = () => {
       trailerUrl: "https://www.youtube.com/embed/xkNRY-ZFbhY",
       stores: [
         { name: "Steam", url: "https://store.steampowered.com/app/4084600/Meu_Restaurante_Brazuca?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
+        { name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudio.MeuRestauranteBrazuca?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
         { name: "Itch.io", url: "https://tstrikebrasil.itch.io/meu-restaurante-brazuca?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
       ],
-      isNew: true,
+      isNew: false,
     },
     {
       title: "HexPG",
