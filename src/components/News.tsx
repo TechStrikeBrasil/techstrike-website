@@ -19,6 +19,18 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
+    id: "4",
+    titleEn: "HexPG got a new gameplay trailer!",
+    titlePt: "HexPG recebeu um novo trailer de gameplay!",
+    excerptEn: "We released a new public version of HexPG with a new gameplay trailer. Click and check it out!",
+    excerptPt: "Lançamos uma nova versão pública do HexPG com um novo trailer de gameplay ! Clique aqui e confira!",
+    date: "2026-04-10",
+    source: "TechStrike News",
+    imageUrl: "/images/news/4-new-hexpg-trailer.png",
+    externalUrl: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudio.MeuRestauranteBrazuca",
+    isNew: true,
+  },
+  {
     id: "3",
     titleEn: "Meu Restaurante Brazuca recieved a Mobile Version",
     titlePt: "Meu Restaurante Brazuca recebeu uma Versão Mobile",
@@ -28,7 +40,7 @@ const newsItems: NewsItem[] = [
     source: "TechStrike News",
     imageUrl: "/images/news/3-mrb-mobile.jpg",
     externalUrl: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudio.MeuRestauranteBrazuca",
-    isNew: true,
+    isNew: false,
   },
   {
     id: "2",
@@ -40,7 +52,7 @@ const newsItems: NewsItem[] = [
     source: "TechStrike News",
     imageUrl: "/images/news/2-jogo-memoria.jpg",
     externalUrl: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudios.JogodaMemriaInfantil",
-    isNew: true,
+    isNew: false,
   },
   {
     id: "1",
