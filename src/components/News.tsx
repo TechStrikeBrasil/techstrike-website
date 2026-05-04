@@ -19,6 +19,18 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
+    id: "5",
+    titleEn: "Meu Restaurante Brazuca featured on Wholesome Kitchen Event 2026!",
+    titlePt: "Meu Restaurante Brazuca destacado no evento Wholesome Kitchen 2026!",
+    excerptEn: "Meu Restaurante Brazuca was featured on the Wholesome Kitchen Event 2026! Click and check it out!",
+    excerptPt: "Meu Restaurante Brazuca foi destacado no evento Wholesome Kitchen 2026! Clique e confira!",
+    date: "2026-04-29",
+    source: "TechStrike News",
+    imageUrl: "/images/news/5-wholesome-kitchen-event.png",
+    externalUrl: "https://store.steampowered.com/curator/45686865-Cozy-Job-Simulators/sale/wholesomekitchenevent2026",
+    isNew: true,
+  },
+  {
     id: "4",
     titleEn: "HexPG got a new gameplay trailer!",
     titlePt: "HexPG recebeu um novo trailer de gameplay!",
@@ -28,7 +40,7 @@ const newsItems: NewsItem[] = [
     source: "TechStrike News",
     imageUrl: "/images/news/4-new-hexpg-trailer.png",
     externalUrl: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudio.MeuRestauranteBrazuca",
-    isNew: true,
+    isNew: false,
   },
   {
     id: "3",

@@ -96,7 +96,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://discord.gg/pSNXkzyf"
+                  href="https://discord.gg/38UgVukJ7c"
                   className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center hover:bg-primary/40 transition-colors"
                   aria-label="Discord"
                 >
