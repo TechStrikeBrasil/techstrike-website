@@ -18,6 +18,32 @@ interface NewsItem {
 }
 
 const newsItems: NewsItem[] = [
+  
+  // {
+    // TEMPLATE FOR NEWS
+    // titleEn: "News Title in English",
+    // titlePt: "Título da Notícia em Português",
+    // id: "6",
+    // excerptEn: "Short description of the news in English. Click and check it out!",
+    // excerptPt: "Descrição curta da notícia em Português. Clique e confira!",
+    // date: "2026-05-15",
+    // source: "TechStrike News",
+    // imageUrl: "/images/news/6-news-image.png",
+    // externalUrl: "https://example.com/news-article",
+    // isNew: true,
+  // },
+  {
+    id: "6",
+    titleEn: "Meu Restaurante Brazuca acquired 500 wishlists on Steam!",
+    titlePt: "Meu Restaurante Brazuca alcança 500 wishlists na Steam!",
+    excerptEn: "Meu Restaurante Brazuca has reached 500 wishlists on Steam! Click and check it out!",
+    excerptPt: "Meu Restaurante Brazuca alcançou 500 wishlists na Steam! Clique e confira!",
+    date: "2026-05-25",
+    source: "TechStrike News",
+    imageUrl: "/images/news/6-500-wishlists.png",
+    externalUrl: "https://steamcommunity.com/app/4084600/discussions/1/837251589453401794/?utm_source=techstrike_site&utm_medium=website&utm_campaign=news_card",
+    isNew: true,
+  },
   {
     id: "5",
     titleEn: "Meu Restaurante Brazuca featured on Wholesome Kitchen Event 2026!",
@@ -28,7 +54,7 @@ const newsItems: NewsItem[] = [
     source: "TechStrike News",
     imageUrl: "/images/news/5-wholesome-kitchen-event.png",
     externalUrl: "https://store.steampowered.com/curator/45686865-Cozy-Job-Simulators/sale/wholesomekitchenevent2026",
-    isNew: true,
+    isNew: false,
   },
   {
     id: "4",
