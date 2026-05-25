@@ -33,14 +33,27 @@ export const translations = {
     // Games
     gamesTitle: "Our Games",
     gamesSubtitle: "Explore our collection of desktop and mobile games",
+    learnMore: "Learn More",
+    newBadge: "New!",
+
+    // Three Days
+    threeDaysDesc: "An atmospheric narrative-driven visual novel for PC where players live the a young guy going to Japan",
+    threeDaysLongDesc: "Three Days is an atmospheric narrative-driven visual novel for PC that immerses players in the life of a Brazilian going to Japan. The game features a rich storyline filled with emotional moments, compelling characters, and beautiful pixel-art artstyle. Players will navigate through branching dialogues and make choices that shape the outcome of the story, creating a deeply personal gaming experience. With its captivating narrative and stunning visuals, Three Days invites players to explore themes of love, friendship, and cultural exchange.",
+
+    // HexPG
     hexPGDesc: "A desktop RPG platform for PC featuring tactical turn-based combat, character progression, and an immersive fantasy world.",
     hexPGLongDesc: "HexPG is an ambitious desktop RPG platform designed for PC gamers who crave strategic depth and immersive storytelling. The game features a sophisticated tactical turn-based combat system where every decision matters. Players can develop their characters through an extensive progression system, unlocking new abilities, equipment, and skills as they journey through a rich fantasy world filled with memorable characters, challenging quests, and dynamic events.",
+    
+    // Verdant Valley
+    verdantValleyDesc: "A mobile farming simulation game where players grow crops, raise animals, and build their own thriving farm in a peaceful countryside setting.",
     verdantValleyLongDesc: "Verdant Valley brings the joy of farming to your mobile device with intuitive touch controls and charming visuals. Build your dream farm from the ground up by planting and harvesting a variety of crops, raising adorable animals, and decorating your land with beautiful structures. The game features seasonal events, cooperative gameplay with friends, and regular content updates that keep the experience fresh and engaging.",
+    
+    // Meu Restaurante Brazuca
     restaurantBrazucaDesc: "Casual restaurant game inspired by Overcooked. Assemble and deliver orders before time runs out.",
     restaurantBrazucaLongDesc: "Meu Restaurante Brazuca is a fast-paced casual cooking game that captures the chaotic fun of Overcooked with a distinctly Brazilian flavor. Players must work efficiently to prepare and serve authentic Brazilian dishes while managing time pressure and increasingly complex orders. The game features colorful graphics, upbeat music, and a variety of recipes from different regions of Brazil. Perfect for both solo play and cooperative multiplayer sessions with friends.",
-    newBadge: "New!",
-    verdantValleyDesc: "A mobile farming simulation game where players grow crops, raise animals, and build their own thriving farm in a peaceful countryside setting.",
-    learnMore: "Learn More",
+    
+    
+    
     // Memory game
     memoryGameDesc: "A mobile memory game for kids where players match pairs of cards featuring colorful and fun illustrations.",
     memoryGameLongDesc: "Our mobile memory game for kids is designed to provide a fun and educational experience for young players. The game features vibrant and engaging illustrations on the cards, making it visually appealing for children. Players can test their memory skills by matching pairs of cards, with various themes and difficulty levels to keep them entertained. The intuitive touch controls make it easy for kids to play, while the colorful graphics and cheerful music create an enjoyable gaming environment.",
@@ -110,6 +123,8 @@ export const translations = {
     verdantValleyLongDesc: "Verdant Valley traz a alegria da agricultura para seu dispositivo móvel com controles por toque intuitivos e visuais encantadores. Construa a fazenda dos seus sonhos do zero plantando e colhendo uma variedade de culturas, criando animais adoráveis e decorando sua terra com belas estruturas. O jogo apresenta eventos sazonais, jogabilidade cooperativa com amigos e atualizações regulares de conteúdo que mantêm a experiência sempre fresca e envolvente.",
     restaurantBrazucaDesc: "Jogo casual de restaurante inspirado em Overcooked. Monte e entregue pedidos antes do tempo acabar.",
     restaurantBrazucaLongDesc: "Meu Restaurante Brazuca é um jogo de culinária acelerado que captura a diversão caótica de Overcooked com um sabor distintamente brasileiro. Os jogadores devem trabalhar eficientemente para preparar e servir pratos autênticos brasileiros enquanto gerenciam a pressão do tempo e pedidos cada vez mais complexos. O jogo apresenta gráficos coloridos, música animada e uma variedade de receitas de diferentes regiões do Brasil. Perfeito tanto para jogar sozinho quanto em sessões multiplayer cooperativas com amigos.",
+    threeDaysDesc: "Uma visual novel atmosférica que conta a história de um jovem brasileiro indo para o Japão.",
+    threeDaysLongDesc: "Three Days, No Words é uma visual novel atmosférica para PC que mergulha os jogadores na vida de um brasileiro indo para o Japão. O jogo apresenta uma história rica cheia de momentos emocionais, personagens envolventes e um belo estilo artístico em pixel art. Os jogadores navegarão por diálogos ramificados e tomarão decisões que moldarão o desfecho da história, criando uma experiência de jogo profundamente pessoal. Com sua narrativa cativante e visuais impressionantes, Three Days convida os jogadores a explorar temas de amor, amizade e intercâmbio cultural.",
     newBadge: "Novo!",
     learnMore: "Saiba Mais",
 

@@ -7,6 +7,47 @@ const Games = () => {
   const t = translations[language];
 
   const games = [
+    // {
+      // TEMPLATE FOR GAMES
+      // title: "Tech Strike: The Game",
+      // description: t.techStrikeGameDesc,
+      // longDescription: t.techStrikeGameLongDesc,
+      // image: "/images/games/tech-strike/tech-strike.jpg",
+      // platforms: ["desktop", "mobile"],
+      // screenshots: [
+      //   "/images/games/tech-strike/1.jpg",
+      //   "/images/games/tech-strike/2.jpg",
+      //   "/images/games/tech-strike/3.jpg",
+      //   "/images/games/tech-strike/4.jpg",
+      // ],
+      // trailerUrl: "https://www.youtube.com/embed/VIDEO_ID",
+      // stores: [
+      //   { name: "Steam", url: "https://store.steampowered.com/app/APP_ID/Tech_Strike_The_Game?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
+      //   { name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudio.TechStrikeTheGame" },
+      //   { name: "Itch.io", url: "https://tstrikebrasil.itch.io/tech-strike-the-game?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
+      // ],
+      // isNew: true,
+    // },
+    {
+      title: "Three Days, No words",
+      description: t.threeDaysDesc,
+      longDescription: t.threeDaysLongDesc,
+      image: "/images/games/three-days/three-days.jpg",
+      platforms: ["desktop"],
+      screenshots: [
+        "/images/games/three-days/1.jpg",
+        "/images/games/three-days/2.jpg",
+        "/images/games/three-days/3.jpg",
+        "/images/games/three-days/4.jpg",
+      ],
+      trailerUrl: "https://www.youtube.com/embed/TXjDG17EN0k",
+      stores: [
+      //   { name: "Steam", url: "https://store.steampowered.com/app/APP_ID/Tech_Strike_The_Game?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
+      //   { name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.TechStrikeGameStudio.TechStrikeTheGame" },
+        { name: "Itch.io", url: "https://tstrikebrasil.itch.io/three-days-no-words?utm_source=techstrike_site&utm_medium=website&utm_campaign=game_card" },
+      ],
+      isNew: true,
+    },
     {
       title: "Jogo da Memória - Infantil",
       description: t.memoryGameDesc,
