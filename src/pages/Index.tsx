@@ -7,6 +7,7 @@ import Games from "../components/Games";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import News from "../components/News";
+import Roadmap from "../components/Roadmap";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <About />
       <Team />
       <Games />
+      <Roadmap />
       <News />
       <Contact />
       <Footer />
