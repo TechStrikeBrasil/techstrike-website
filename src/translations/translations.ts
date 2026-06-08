@@ -62,6 +62,14 @@ export const translations = {
     newsTitle: "News",
     newsSubtitle: "Stay updated with the latest news and press coverage about TechStrike Game Studio games.",
 
+     // Roadmap
+    roadmap: "Roadmap",
+    roadmapTitle: "Roadmap",
+    roadmapSubtitle: "Our upcoming releases, events, and development timeline",
+    roadmapLegendDev: "Development",
+    roadmapLegendEvent: "Event",
+    roadmapLegendRelease: "Release",
+
     // Contact
     contactTitle: "Get In Touch",
     contactSubtitle: "Have questions about our games or interested in collaborating? Reach out to us!",
@@ -135,6 +143,14 @@ export const translations = {
     // News
     newsTitle: "Notícias",
     newsSubtitle: "Fique atualizado com as últimas notícias e cobertura da imprensa sobre os jogos da TechStrike Game Studio.",
+
+      // Roadmap
+    roadmap: "Roadmap",
+    roadmapTitle: "Roadmap",
+    roadmapSubtitle: "Nossos próximos lançamentos, eventos e linha do tempo de desenvolvimento",
+    roadmapLegendDev: "Desenvolvimento",
+    roadmapLegendEvent: "Evento",
+    roadmapLegendRelease: "Lançamento",    
 
     // Contact
     contactTitle: "Entre em Contato",
